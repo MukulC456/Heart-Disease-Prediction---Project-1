@@ -1,11 +1,3 @@
-# UnifiedMentor_Projects
-This repository contains two Machine Learning (ML) projects that I developed during my internship at UnifiedMentor:
-
-1. Heart Disease Prediction 
-2. Fraud Transaction Detection
-   
-Each project includes data preprocessing, model training, evaluation, and future improvements.
-
 📌 1. Heart Disease Prediction Model
 
 📖 Overview
@@ -37,36 +29,4 @@ ML Algorithms: Random Forest
 🔹 Web-based prediction interface
 
 🔹 Improved model generalization with larger datasets
-
-📌 2. Fraud Transaction Detection
-
-📖 Overview
-
-A fraud detection system that analyzes transaction patterns and identifies suspicious transactions using ML. This project enhances financial security by detecting fraud in real time.
-
-🔹 Key Features
-
-✅ Utilizes Random Forest, SMOTE (Synthetic Minority Over-sampling Technique) 
-
-✅ Achieves 100% accuracy in fraud detection.
-
-✅ Enables real-time fraud prediction with instant transaction verification.
-
-✅ Reduces false positives and enhances financial security.
-
-📊 Tech Stack & Tools
-
-Programming: Python
-
-Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-
-ML Algorithms: Random Forest,  SMOTE (Synthetic Minority Over-sampling Technique) 
-
-🛠 Future Enhancements
-
-🔹 Advanced fraud detection using deep learning
-
-🔹 Integration with banking APIs for real-time fraud alerts
-
-🔹 Deployment as a web application
 
