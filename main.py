@@ -39,20 +39,18 @@ with open("scaler.pkl", "wb") as f:
     pickle.dump(scaler, f)
 
 # Feature importance plot
+
 plt.figure(figsize=(10, 5))
 sns.barplot(x=X.columns, y=model.feature_importances_)
 plt.xticks(rotation=45)
 plt.title("Feature Importance")
 plt.show()
 
-
-# --------------------
 # Prediction Function
-# --------------------
+
 selected_features = "age,sex,chest pain type,resting bp s,cholesterol,fasting blood sugar,resting ecg,max heart rate,exercise angina,oldpeak,ST slope,target"
 def predict_heart_disease(input_data):
     
-
     # Load model and scaler
     with open("heart_model.pkl", "rb") as f:
         model = pickle.load(f)
@@ -74,8 +72,7 @@ def predict_heart_disease(input_data):
 
     return "Heart Disease Detected" if prediction[0] == 1 else "No Heart Disease"
 
-# --------------------
 # Sample Test Prediction
-# --------------------
+
 sample_input = [40,1,2,140,289,0,0,172,0,0,1,0]  # Example input based on UI features
 print("Sample Prediction:", predict_heart_disease(sample_input))
