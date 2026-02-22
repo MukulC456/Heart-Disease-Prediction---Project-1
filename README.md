@@ -1,4 +1,4 @@
-# Heart Disease Prediction Model
+# Heart Disease Risk Prediction Model
 
 # Overview
 A machine learning model to predict the likelihood of heart disease using patient data. The goal is to provide an early warning system that helps in preventive care and treatment.
